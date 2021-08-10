@@ -1,4 +1,4 @@
-package com.lab.spring.core.beans.interfBeans;
+package com.lab.spring.core.beans.interfbeans;
 
 import com.lab.spring.core.SortInterf;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import java.util.List;
 public class SortClass {
 
     @Autowired
-    public List<SortInterf> beans;
+    private List<SortInterf> beans;
 
     public void printBeans() {
         for (SortInterf bean: beans) {

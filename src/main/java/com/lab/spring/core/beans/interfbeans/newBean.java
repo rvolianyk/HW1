@@ -1,4 +1,4 @@
-package com.lab.spring.core.beans.interfBeans;
+package com.lab.spring.core.beans.interfbeans;
 
 import com.lab.spring.core.SortInterf;
 import org.springframework.beans.factory.annotation.Autowired;

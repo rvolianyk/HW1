@@ -1,12 +1,12 @@
-package com.lab.spring.core.beans.injectionBeans;
+package com.lab.spring.core.beans.injectionbeans;
 
-import com.lab.spring.core.beans.otherBeans.OtherBeanC;
+import com.lab.spring.core.beans.otherbeans.OtherBeanC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class beanField {
+public class BeanField {
 
     @Autowired
     @Qualifier("uniqueBean")

@@ -1,6 +1,6 @@
 package com.lab.spring.core;
 
-import com.lab.spring.core.beans.interfBeans.SortClass;
+import com.lab.spring.core.beans.interfbeans.SortClass;
 import com.lab.spring.core.config.AppConfigOne;
 import com.lab.spring.core.config.AppConfigTwo;
 import com.lab.spring.core.config.InjectConfig;

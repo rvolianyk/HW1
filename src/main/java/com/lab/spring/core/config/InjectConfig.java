@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(value = {"com.lab.spring.core.beans.otherBeans", "com.lab.spring.core.beans.injectionBeans"})
+@ComponentScan(value = {"com.lab.spring.core.beans.otherbeans" , "com.lab.spring.core.beans.injectionbeans"})
 public class InjectConfig {
 
 }
